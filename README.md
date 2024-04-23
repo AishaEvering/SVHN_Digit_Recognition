@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://github.com/AishaEvering/SVHN_Digit_Recognition/blob/main/Street_Digits.png" alt="Face Verfication" width="600" height="300">
+   <img src="https://github.com/AishaEvering/SVHN_Digit_Recognition/blob/main/Street_Digits.png" alt="SVHN Digits" width="600" height="300">
 </p>
 
 # SVHN Digit Recognition
@@ -28,12 +28,12 @@ The model employs sophisticated Artificial Neural Networks (ANNs) and Convolutio
 
 ## 🔑 Key Takeaways
 
-* If the training accracy is rising while the validation accuracy is declining that baby is overfitting.
+* If the training accuracy is rising while the validation accuracy is declining that baby is overfitting.
 
 
 ### 😤 Where I Got Stuck
 
-* Honestly, I dont' think I got stuck anywhere in this project.
+* Honestly, I don't think I got stuck anywhere in this project.
 
 ### ☑️ Todos...
 
