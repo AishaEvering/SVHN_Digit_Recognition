@@ -9,45 +9,44 @@ This project serves as an elective endeavor undertaken to advance towards achiev
 ## Technologies
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-
-[![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)](https://matplotlib.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
-
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)](https://www.tensorflow.org/)
 [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 
 ## 📃Description
 
-This is a TensorFlow neural network model that performs computer vision to authenticate an image.
+The model employs sophisticated Artificial Neural Networks (ANNs) and Convolutional Neural Networks (CNNs), it endeavors to discern numerical characters within the famous SVHN (Street View House Numbers) Dataset.
+
 
 ## 🏫 What Did I Learn
 
-* How to use Tensor flow decoraters.
-* How to create a custom training step using TensorFlow.
+* How to build and train a ANN (Artificial Neural Network) model.
+* How to build and train a CNN (Convolutional Neural Network) model.
 
 ## 🔑 Key Takeaways
 
-This is my first experience with following a research paper's neural network archetecture.  Some of the cool takeways I got from it where
-* One Shot: The model must correctly make predictionss given only a single example.  The model was trained on hundreds of images of my face (positive) and randomn faces (negative). Then the model was given a single single (one-shot) image and validated it against a validation image.  Depending on the verfiication threshold which in the case was 70% the model verified that if the person in the image was the same person if the given image.
-* This model used the siamese neural network method that took in 2 inputs and ranked the similarity.
+* If the training accracy is rising while the validation accuracy is declining that baby is overfitting.
 
 
 ### 😤 Where I Got Stuck
 
-* OpenCV opening the web camera does not work in Google Colab.  There is a snippet available on Google Colab that takes a single picture from the web camera, but I needed hundreds.  So I took a little detour and updated the code to work like OpenCV did in the tutorial.  I even wrote about it, check it out. [TIL How to Take Hundreds of Images Through Google Colab](https://dev.to/aishaevering/til-how-to-take-hundred-of-images-through-google-colab-3bbo)
+* Honestly, I dont' think I got stuck anywhere in this project.
 
 ### ☑️ Todos...
 
-* Deploy the model so it can easily verfiy faces.
+* None
   
 ### 📖 Dataset
 
-* ~400 Anchor images taken with my webcam.  They are currently stored in my Google Drive.
-* ~400 Positive images taken with my webcam.  They are currently store in my Google Drive.
-* ~400 Negatvie images provided my tutorial, labled Faces in the Wild. 
+* The [SVHN dataset](http://ufldl.stanford.edu/housenumbers/)
   
 ## 🙏 Acknowledgments
 
-* [Nicholas Renotte]([https://github.com/matiassingers/awesome-readme](https://www.youtube.com/watch?v=bK_k7eebGgc&list=PLgNJO2hghbmhHuhURAGbe6KWpiYZt0AMH))
-* 📑 [Siamese Neural Network for One-shot Image Recognition]([https://gist.github.com/PurpleBooth/109311bb0361f32d87a2](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf))
+* These projects are evaluated by the Great Learning/MIT staff and this is some of what I was told. 😊
+
+*"Your project submission is truly exceptional. Your meticulous efforts are evident in the comprehensive evaluation of each segment, demonstrating a profound level of dedication. I’ve thoroughly reviewed every line of code, and I must say, I’m highly impressed by your implementation approach. Overall, you’ve done an outstanding job, showcasing excellence that sets a high standard. Keep up the exceptional work!"*
+
+*Evaluator, Mar 22, 4:22 PM*
+
