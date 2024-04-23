@@ -1,17 +1,19 @@
 <p align="center">
-   <img src="https://github.com/AishaEvering/FaceVerification/blob/main/FaceVerification.png" alt="Face Verfication" width="600" height="300">
+   <img src="https://github.com/AishaEvering/SVHN_Digit_Recognition/blob/main/Street_Digits.png" alt="Face Verfication" width="600" height="300">
 </p>
 
-# Face Verification (YouTube Tutorial) :youtube
+# SVHN Digit Recognition
 
-This is the result of an 8 part YouTube series of using Deep Learning with TensorFlow to authenicate your face much like on IPhone.  *Pretty Cool.*
+This project serves as an elective endeavor undertaken to advance towards achieving my MIT Data Science certification.
 
 ## Technologies
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+
 [![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)](https://matplotlib.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
+
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)](https://www.tensorflow.org/)
 [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 
